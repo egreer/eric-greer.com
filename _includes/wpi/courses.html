@@ -1,0 +1,120 @@
+
+<div id="courses" class="panel panel-default">
+  <script type="text/javascript" src="/assets/scripts/jquery.twbsPagination.min.js"></script>
+
+  <div class="panel-heading">
+    <h4>WPI Courses</h4>
+  </div>
+  <div class="panel-body">
+
+    <ul class="sync-pagination pagination pagination"></ul>
+
+    <div id="course-list">
+      <div id="page-1" class="course-page">
+        <h4>Advanced Computer Science</h4>
+        <p>CS 529 Multimedia Networking<br />
+          CS 525 Human Computer Interactions in Immersive Environments<br />
+          CS 503 Foundations of Computer Science <br />
+          CS 502 Operating Systems <br />
+          CS 505 Social Implications of Computing <br />
+          CS 546 Human-Computer Interactions <br />
+          CS 509 Design of Software Systems <br />
+          CS 5084 Introductions to Algorithms: Design &amp; Analysis <br />
+          CS 4445 Knowledge Data Mining and Knowledge Discovery in Databases  <br />
+          CS 4432 Database Systems II <br />
+          CS 4241 Webware: Computational Technology for Network Information Systems <br />
+          CS 4515 Computer Architecture <br />
+          CS 4233 Object Oriented Analysis &amp; Design <br />
+          CS 4341 Introduction To Artificial Intelligence <br />
+          CS 4514 Computer Networks: Architecture &amp; Design <br />
+        </p>
+
+        <h4>Core Computer Science</h4>
+        <p>
+          CS 3013 Operating Systems <br />
+          CS 3041 Human-Computer Interaction <br />
+          CS 3043 Social Implication of Information Processing <br />
+          CS 3733 Software Engineering <br />
+          CS 3133 Foundations of Computer Science <br />
+          CS 3431 Database Systems I <br />
+          CS 2011 Introduction to Computational Organization &amp; Assembler <br />
+          CS 2303 Systems Programming Concepts <br />
+          CS 2102 Object-Oriented Design Concepts <br />
+          CS 1101 Introduction to Program Design
+        </p>
+      </div>
+      <div id="page-2" class="course-page" style="display: none;">
+        <h4>Management</h4>
+        <p>
+          MIS 4720 Systems Analysis &amp; Design<br />
+          MIS 3720 Business Data Management<br />
+          MIS 3700 Information Systems Managemment <br />
+          OBC 2300 Organizational Science - Foundation
+        </p>
+
+        <h4>Science &amp; Math</h4>
+        <p>
+          MA 2621 Probablity for Applications<br />
+          MA 2071 Matricies &amp; Linear Algebra I<br />
+          MA 1024 Calculus IV<br />
+          MA 1023 Calculus III<br />
+          MA 1022 Calculus II<br />
+          MA 1021 Calculus I<br />
+          CS 2022 Discrete Mathmatics<br />
+          ECE 2011 Introduction to Electrical &amp; Computer Engineering<br />
+          CH 1030 Equlibrium <br />
+          CH 1020 Forces and Bonding <br />
+          CH 1010 Molecularity <br />
+          PH 1110 General Physics-Mechanics
+        </p>
+      </div>
+      <div id="page-3" class="course-page" style="display: none;">
+        <h4>Spanish</h4>
+        <p>
+          SP 3528 Spanish Culture &amp; Civilization<br />
+          SP 3521 Advanced Spanish I <br />
+          SP 3522 Advanced Spanish II<br />
+          SP 2521 Intermediate Spanish I <br />
+          SP 2522 Intermediate Spanish II <br />
+          SP 1523 Elementary Spanish I
+        </p>
+
+        <h4>Other Courses</h4>
+        <p>
+          ID 2050 Social Science Res-IQP (Puerto Rico)<br />
+          PSY 1400 Introduction to Psychological Science <br />
+          PSY 1504 Strategy for Improving Cognitive Skills<br />
+          MU 2636 Concert Band<br />
+          PE 1007 Basic Water Safety<br />
+          PE 1056 Lifeguarding I<br />
+          PE 1057 Lifeguarding II<br />
+          PE 1077 Swimming for Fitness <br />
+          PE 1078 Aquatic Conditioning <br />
+        </p>
+      </div>
+    </div>
+
+    <ul class="sync-pagination pagination pagination"></ul>
+
+    <script>
+      $('.pagination').twbsPagination({
+        totalPages: 3,
+        visiblePages: 3,
+        first: '',
+        last: '',
+        initiateStartPageClick: false,
+        onPageClick: function (event, page) {
+          var effect = 'fade',
+          duration = 200,
+          showOptions = { };
+
+          $('.course-page').hide( effect,showOptions, duration);
+
+          $('#page-' + page ).toggle(effect,showOptions, duration );
+        }
+      });
+    </script>
+
+  </div>
+
+</div>

@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h4>The Wiz <small>2003</small></h4>
+	</div>
+	
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-sm-6">
+				<p>South Portland High School Musical</p>
+				<h4>Technical Crew</h4>
+				<ul>
+					<li>Stage Hand</li>
+					<li>Special Effects Operator</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				
+				<img src="/assets/images/theater/Wiz.jpg" class="img-responsive img-rounded center-block theater-img">
+
+			</div>
+		</div>
+	</div>
+</div>

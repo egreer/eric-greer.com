@@ -1,0 +1,83 @@
+<div class="col-md-4">
+	<div id="profile" class="well text-center">
+    <p>
+      <img src="/assets/images/Eric_Greer_Profile_Small.jpg" alt="Photo: Eric Greer" />
+    </p>
+
+    <ul id="social-links" class="social-icons icon-rounded  list-unstyled list-inline">
+
+      <li>
+        <a href="https://www.linkedin.com/in/greereric" rel="me" title="LinkedIn Profile" target="_blank"><i class="fa fa-linkedin"></i></a>
+      </li>
+      <li>
+        <a href="https://stackoverflow.com/users/677327/eric-greer" rel="me" title="Stack Overflow Profile" target="_blank"><i class="fa fa-stack-overflow"></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/egreer" rel="me" title="Github" target="_blank"><i class="fa fa-github"></i></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/greer.eric" rel="me" title="Facebook Profile" target="_blank"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://www.goodreads.com/egreer" rel="me" title="Goodreads Books" target="_blank"><img src="/assets/images/icons/goodreads.png" class="fa fa-goodreads" alt="Goodreads"/></a>
+      </li>
+	  </ul>
+	</div>
+	<div id="quote" class="panel panel-info">
+    <div class="panel-heading">
+      <h4>
+        <a href="http://www.goodreads.com/egreer" title="Goodreads Quotes" rel="me" target="_blank">Favorite Quotes</a>
+        <span id="quote-control" onclick="toggleQuotes()" class="pull-right pause"><small><i class="fa fa-pause"></i></small></span>
+      </h4>
+    </div>
+
+	  <div class="panel-body">
+  		<p class="text-center" id="gr_quote_body"></p>
+  		<script>
+		    function reload_js(src) {
+	        $('script[src="' + src + '"]').remove();
+	        $('<script>').attr('src', src).appendTo('head');
+		    }
+
+		    function loadQuotes(){
+	        reload_js('http://www.goodreads.com/quotes/widget/2216448-eric-greer?v=2');
+		    }
+
+		    function pauseQuotes(){
+		    	// console.log("Pausing Quotes " + quoteInterval);
+		    	window.clearInterval(quoteInterval);
+		    	$("#quote-control").attr("class", "pull-right play");
+		    }
+
+		    function resumeQuotes(){
+		    	loadQuotes();
+		    	quoteInterval = window.setInterval(loadQuotes, 60000);
+		    	$("#quote-control").attr("class", "pull-right pause");
+		    	// console.log("Resuming Quotes " + quoteInterval);
+		    }
+
+		    function toggleQuotes(){
+		    	$('#quote-control i').toggleClass('fa-play fa-pause');
+
+		    	if( $("#quote-control").hasClass("play") ){
+		    	   resumeQuotes();
+		    	}
+		    	else {
+		    	   pauseQuotes();
+		    	}
+		    }
+
+		    loadQuotes();
+		    var quoteInterval = window.setInterval(loadQuotes, 60000);
+		    // console.log("Starting quotes " + quoteInterval);
+
+  		</script>
+	  </div>
+	</div>
+	<div class="alert alert-warning" id="disclaimer">
+	  <p>Disclaimer</p>
+	  <p class="text-muted">
+      I work for Apsis Labs, and the opinions expressed here are my own and do not necessarily reflect the views of the company.
+    </p>
+	</div>
+</div>

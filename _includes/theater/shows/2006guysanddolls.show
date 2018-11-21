@@ -1,0 +1,24 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h4>Guys and Dolls <small>2006</small></h4>
+	</div>
+	
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-sm-6">
+				<p>South Portland High School Musical</p>
+				<h4>Assistant Stage Manager / Technical Crew</h4>
+				<ul>
+					<li>Set Construction</li>
+					<li>Set Painting</li>
+					<li>Stage Hand</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				
+				<img src="/assets/images/theater/guysanddollsfinal.jpg" class="img-responsive img-rounded center-block theater-img">
+
+			</div>
+		</div>
+	</div>
+</div>

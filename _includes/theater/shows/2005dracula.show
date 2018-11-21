@@ -1,0 +1,46 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h4>Dracula <small>2005</small></h4>
+	</div>
+	
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-sm-6">
+				<p>South Portland High School Drama</p>
+				<h4>Set Construction Manager/Technical Crew</h4>
+				<ul>
+					<li>Stage Hand</li>
+					<li>Set Design</li>
+					<li>Set Construction</li>
+					<li>Set Painting</li>
+					<li>Special Effects Operator</li>
+				
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				
+				<img src="/assets/images/theater/Dracula.jpg" class="img-responsive img-rounded center-block theater-img">
+		
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="/assets/images/theater/DraculaArch.jpg" class="img-responsive img-rounded center-block theater-img">
+			</div>
+			
+			<div class="col-sm-6">
+			
+				<img src="/assets/images/theater/DraculaBookcase.jpg" class="img-responsive img-rounded center-block theater-img">
+			</div>	
+				
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-12">
+					
+				<img src="/assets/images/theater/DraculaSide.jpg" class="img-responsive img-rounded center-block theater-img">
+
+			</div>
+		</div>
+	</div>
+</div>

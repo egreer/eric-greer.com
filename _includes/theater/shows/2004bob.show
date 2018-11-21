@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h4>Best of Broadway <small>2004</small></h4>
+	</div>
+	
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-sm-6">
+				<p>Charity Fundraiser</p>
+				<p><em>Best of Broadway</em> was an annual fundraiser for the Barbra Bush Children&rsquo;s Hospital at Maine Medical Center
+				<h4>Technical Crew</h4>
+				<ul>
+					<li>Stage Hand</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				
+				<img src="/assets/images/theater/BOB2004.jpg" class="img-responsive img-rounded center-block theater-img">
+
+			</div>
+		</div>
+	</div>
+</div>

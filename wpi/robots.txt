@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /lair
+Disallow: /about/*.pdf
+Allow: /
+Sitemap: http://eric-greer.com/sitemap/sitemap.xml

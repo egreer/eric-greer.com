@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h4>Sweeney Todd <small>2006</small></h4>
+	</div>
+	
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-sm-6">
+				<p>WPI Musical</p>
+				<h4>Technical Crew</h4>
+				<ul>
+					<li>Set Construction</li>
+					<li>Set Painting</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				
+				<img src="/assets/images/theater/SweenyTodd.jpg" class="img-responsive img-rounded center-block theater-img">
+
+			</div>
+		</div>
+	</div>
+</div>
