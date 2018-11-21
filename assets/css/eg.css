@@ -1,6 +1,6 @@
 /********************************************
   AUTHOR: Eric Greer
-	WEBSITE: http://eric-greer.com
+	WEBSITE: https://eric-greer.com
 
  *******************************************/
 
@@ -29,7 +29,7 @@ body {
 
 
 /****** BEGIN Colored Social Icons****** */
-/** http://codepen.io/ameyraut/pen/yfzog **/
+/** https://codepen.io/ameyraut/pen/yfzog **/
 
 .list-unstyled {
 	padding-left: 0;
@@ -133,7 +133,7 @@ body {
  /****** End Social Icons ********/
 
  body{
-    background-image: url(http://eric-greer.com/images/backgrounds/20150822_152459-resize.jpg);
+    background-image: url(/assets/images/backgrounds/20150822_152459-resize.jpg);
     background-size: cover;
     background-attachment: fixed;
  }
