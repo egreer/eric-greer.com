@@ -1,4 +1,3 @@
-#theme: jekyll-theme-slate
 defaults:
   - scope:
       path: "assets/images"
@@ -6,7 +5,7 @@ defaults:
       image: true
 whitelist:
   - jekyll-redirect-from
-gems:
+plugins:
   - jekyll-github-metadata
   - jekyll-mentions
   - jekyll-redirect-from
